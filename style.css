@@ -1,18 +1,21 @@
 
-* {
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+* { 
+  box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(249, 242, 233);
   }
 
 h1 {
-   color: blue;
-   font-size: 175%;
+   color: brown;
+   font-size: 190%;
    text-align: center;
+   font-family: 'Playfair Display', serif;
 }
 
 section {
     border: 1px solid black;
-    background-color: lightgray;
+    background-color:#d4c2b0;
     height: 250px;
     overflow: auto;
 }
@@ -20,14 +23,16 @@ section {
 h2 {
     float: right;
     border:1px solid black;
-    color: purple;
+    color: brown;
     font-size: 120%;
     padding: 5px 20px 5px 20px;
     margin-top: 0;
-}
+    font-family: 'Playfair Display', serif;
+  }
 ul  {
     clear: right;
     width: 90%;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 /********** Large devices only **********/
@@ -117,8 +122,8 @@ ul  {
     .col-md-12 {
       width: 100%;
     }
-
-    @media (max-width: 767px) {
+  }
+    @media (min-width: 0px) and (max-width: 767px) {
         .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
           float: left;
           padding: 15px;
@@ -161,4 +166,3 @@ ul  {
         }
   }
 
-}
